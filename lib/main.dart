@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:interest_calculator/Home.dart';
+import 'package:interest_calculator/Interest.dart';
 
 void main() => runApp(MyApp());
 
@@ -20,8 +21,14 @@ class MyApp extends StatelessWidget {
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
         primarySwatch: Colors.blue,
+        //accentColor: Colors.accents,
+        primaryColor: Colors.blue,
+         primaryTextTheme: TextTheme(
+           button: TextStyle(color: Colors.white)
+         )
+
       ),
-      home: Home(),
+      home: Interest(),
     );
   }
 }

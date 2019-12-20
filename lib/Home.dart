@@ -21,7 +21,7 @@ class HomeState extends State<Home> {
     // TODO: implement build
     return Scaffold(
         appBar: AppBar(
-          title: Text("Home"),
+          title: Text("Homee"),
         ),
         body: Center(
             child: Column(

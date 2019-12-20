@@ -16,7 +16,7 @@ class LoginState extends State<Login> {
     // TODO: implement build
     return Scaffold(
       appBar: AppBar(
-        title: Text("Login"),
+        title: Text("Loginn"),
       ),
       body: Center(
         child: Padding(
